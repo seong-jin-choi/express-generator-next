@@ -1,3 +1,3 @@
 export default () => {
-  return <header>footer</header>;
+  return <header>header</header>;
 };

@@ -2,7 +2,10 @@ import { montserrat, notoSansKR, pretendard } from "./fonts";
 
 export default function Home() {
   return (
-    <div className={pretendard.className}>
+    <div>
+      <h1 style={{ fontSize: "30px", marginTop: "10px", marginBlock: "10px" }}>
+        The Express Generator <br></br> powered by Next.js
+      </h1>
       <input id="test" type="text" />
       <h2 id="test__h2">test1234</h2>
       <details open={true}>
