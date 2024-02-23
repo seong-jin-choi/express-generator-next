@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./Header";
 import Footer from "./Footer";
-import localFont from "next/font/local";
+import { montserrat } from "./fonts";
 
 export const metadata: Metadata = {
   title: "SITE NAME",
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={montserrat.style}>
       <body>
         <Header />
         {children}
